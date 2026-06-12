@@ -6,7 +6,3 @@ DB_PATH = os.path.join(BASE_DIR, NAMA_DB)
 KATEGORI_PENGELUARAN = ["Makanan", "Transportasi", "Hiburan", "Tagihan",
                         "Belanja", "Kesehatan", "Pendidikan", "Lainnya"]
 KATEGORI_DEFAULT = "Lainnya"
-
-print(f"DB_PATH       : {DB_PATH}")
-print(f"Kategori      : {KATEGORI_PENGELUARAN}")
-print(f"Default       : {KATEGORI_DEFAULT}")
